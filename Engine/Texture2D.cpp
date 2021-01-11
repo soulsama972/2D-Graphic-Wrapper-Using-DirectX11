@@ -129,7 +129,7 @@ void Texture2D::AddInstance(const fVec2& pos,const fVec2& size,const Camera& cam
 	TextrueInstanceType in;
 	//fVec3 screenWorld = (p - cPos);
 	
-	fVec2 screenWorld = pos - camera.GetPos().ToVec2();
+	//fVec2 screenWorld = pos - camera.GetPos().ToVec2();
 	//if(camera.InScreen(screenWorld))
 	
 	in.pos = pos;
